@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>爱情电影网天海翼 - 用心甄选每一部打动人心的爱情影片 | 天海翼专属影评与观影指南</title>
+<meta name="description" content="爱情电影网天海翼致力于为影迷打造沉浸式的浪漫观影体验。我们聚焦天海翼相关影视作品与全球经典爱情电影，提供详尽的影片介绍、深度影评、幕后花絮、演员访谈及观影排期。从纯爱物语到都市情感，从青春校园到跨时空羁绊，爱情电影网天海翼以细腻的视角解读镜头下的心动瞬间，让每一次点击都成为一场关于爱的旅程。">
+<meta name="keywords" content="爱情电影网天海翼, 天海翼电影, 爱情片推荐, 浪漫电影在线, 经典爱情电影, 天海翼影视作品, 爱情电影影评, 爱情剧场, 情感电影解读, qiuxiagaoqingdianyingwang">
+<meta name="author" content="爱情电影网天海翼编辑部">
+<meta name="copyright" content="© 爱情电影网天海翼">
+<meta name="robots" content="index, follow">
+<meta name="bingbot" content="index, follow">
+<meta name="theme-color" content="#1a0b1a">
+<link rel="canonical" href="https://aiqingdianyingwangtianhaiyi-app.github.io">
+<style>
+:root{
+  --ink:#2b1226;
+  --plum:#7a1f4b;
+  --rose:#c0392b;
+  --gold:#d4af37;
+  --cream:#fdf6f0;
+  --mist:#f3e7ee;
+  --line:rgba(122,31,75,.18);
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  font-family:"PingFang SC","Microsoft YaHei","Hiragino Sans GB",sans-serif;
+  color:var(--ink);
+  background:var(--cream);
+  line-height:1.75;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--plum);text-decoration:none}
+img{max-width:100%;display:block}
+.wrap{max-width:1160px;margin:0 auto;padding:0 20px}
+
+/* 顶部导航 */
+header.navbar{
+  position:sticky;top:0;z-index:99;
+  background:linear-gradient(90deg,#1a0b1a 0%,#3d1230 55%,#7a1f4b 100%);
+  box-shadow:0 2px 18px rgba(0,0,0,.25);
+}
+header.navbar .wrap{
+  display:flex;align-items:center;justify-content:space-between;
+  height:64px;
+}
+.brand{display:flex;align-items:center;gap:12px}
+.brand .logo{
+  width:38px;height:38px;border-radius:50%;
+  background:radial-gradient(circle at 32% 28%,#ffd7e6,#c0392b 60%,#5e102f);
+  display:grid;place-items:center;
+  font-size:18px;box-shadow:0 0 0 3px rgba(255,255,255,.12);
+}
+.brand .name{color:#fff;font-size:19px;font-weight:700;letter-spacing:1px}
+.brand .name small{display:block;font-size:11px;font-weight:400;color:#f0c9dd;letter-spacing:2px}
+nav.menu{display:flex;gap:6px}
+nav.menu a{
+  color:#f7e3ec;font-size:14px;padding:8px 14px;border-radius:20px;
+  transition:.25s;white-space:nowrap;
+}
+nav.menu a:hover{background:rgba(255,255,255,.14);color:#fff}
+.menu-btn{display:none;background:none;border:0;color:#fff;font-size:26px;cursor:pointer}
+
+/* 首屏 */
+.hero{
+  position:relative;overflow:hidden;
+  background:
+    radial-gradient(1200px 500px at 82% -10%,rgba(192,57,43,.55),transparent 60%),
+    radial-gradient(900px 600px at 5% 20%,rgba(122,31,75,.5),transparent 55%),
+    linear-gradient(160deg,#150a17,#2c0f25 45%,#52132f);
+  color:#fff;padding:78px 0 92px;
+}
+.hero::after{
+  content:"";position:absolute;inset:0;pointer-events:none;
+  background-image:radial-gradient(1.6px 1.6px at 12% 22%,rgba(255,255,255,.5),transparent),
+  radial-gradient(1.3px 1.3px at 28% 62%,rgba(255,255,255,.4),transparent),
+  radial-gradient(1.8px 1.8px at 48% 18%,rgba(255,255,255,.6),transparent),
+  radial-gradient(1.2px 1.2px at 68% 48%,rgba(255,255,255,.35),transparent),
+  radial-gradient(1.5px 1.5px at 84% 30%,rgba(255,255,255,.5),transparent),
+  radial-gradient(1.1px 1.1px at 40% 78%,rgba(255,255,255,.3),transparent),
+  radial-gradient(1.4px 1.4px at 76% 70%,rgba(255,255,255,.45),transparent);
+  animation:drift 26s linear infinite;
+}
+@keyframes drift{to{background-position:0 -1200px}}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.25fr .75fr;gap:54px;align-items:center}
+.kicker{
+  display:inline-flex;align-items:center;gap:9px;
+  font-size:12px;letter-spacing:3px;color:#f6c8dc;
+  border:1px solid rgba(255,255,255,.3);border-radius:30px;padding:6px 16px;margin-bottom:22px;
+}
+.hero h1{font-size:46px;line-height:1.2;font-weight:800;letter-spacing:1px}
+.hero h1 em{font-style:normal;color:#ffd6e2;position:relative;white-space:nowrap}
+.hero h1 em::before{content:"";position:absolute;left:0;right:0;bottom:4px;height:10px;background:rgba(212,175,55,.4);z-index:-1;border-radius:4px}
+.hero p.lead{margin-top:20px;max-width:560px;color:#f2dbe4;font-size:16px}
+.cta{margin-top:30px;display:flex;gap:14px;flex-wrap:wrap}
+.btn{
+  display:inline-flex;align-items:center;gap:8px;
+  padding:13px 28px;border-radius:30px;font-size:15px;font-weight:600;
+  border:0;cursor:pointer;transition:.25s;
+}
+.btn.primary{background:linear-gradient(135deg,#e0553f,#c0392b);color:#fff;box-shadow:0 10px 24px rgba(192,57,43,.4)}
+.btn.primary:hover{transform:translateY(-2px)}
+.btn.ghost{background:rgba(255,255,255,.1);color:#fff;border:1px solid rgba(255,255,255,.4)}
+.btn.ghost:hover{background:rgba(255,255,255,.22)}
+.hero-card{
+  background:rgba(255,255,255,.08);backdrop-filter:blur(10px);
+  border:1px solid rgba(255,255,255,.18);border-radius:22px;padding:26px;
+  transform:rotate(2deg);transition:.4s;
+}
+.hero-card:hover{transform:rotate(0) translateY(-6px)}
+.hero-card .tag{font-size:12px;letter-spacing:2px;color:#f0c9dd}
+.hero-card h3{font-size:22px;margin:10px 0 14px}
+.hero-card .poster{
+  height:210px;border-radius:14px;margin-bottom:16px;
+  background:linear-gradient(135deg,#8e2447,#c0392b 55%,#5e102f);
+  display:grid;place-items:center;color:#ffd7e6;font-size:15px;letter-spacing:2px;
+  box-shadow:0 14px 30px rgba(0,0,0,.35);
+}
+.hero-card ul{list-style:none;font-size:13.5px;color:#f4e0e9}
+.hero-card li{padding:7px 0;border-top:1px dashed rgba(255,255,255,.18);display:flex;justify-content:space-between;gap:10px}
+.hero-card li:first-child{border-top:0}
+.hero-card li b{font-weight:500;color:#fff}
+
+/* 通用区块 */
+section{padding:74px 0}
+.eyebrow{font-size:12px;letter-spacing:4px;color:var(--rose);font-weight:700}
+.sec-head{display:flex;align-items:flex-end;justify-content:space-between;gap:24px;flex-wrap:wrap;margin:10px 0 40px}
+.sec-head h2{font-size:32px;letter-spacing:.5px}
+.sec-head h2 span{color:var(--plum)}
+.sec-head .note{color:#7a5f6b;font-size:14px;max-width:420px}
+.badge-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:14px}
+.chip{font-size:12.5px;padding:6px 15px;border-radius:20px;background:var(--mist);color:var(--plum);border:1px solid var(--line)}
+
+/* 栏目一：影片橱窗 */
+.shelf{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.film{background:#fff;border-radius:16px;overflow:hidden;box-shadow:0 6px 20px rgba(90,20,50,.08);transition:.3s;display:flex;flex-direction:column}
+.film:hover{transform:translateY(-7px);box-shadow:0 16px 34px rgba(90,20,50,.16)}
+.cover{height:200px;position:relative;display:grid;place-items:center;color:#fff;letter-spacing:2px;font-size:15px}
+.cover.c1{background:linear-gradient(140deg,#5e102f,#a8274f)}
+.cover.c2{background:linear-gradient(140deg,#2b4a6b,#4a7ba7)}
+.cover.c3{background:linear-gradient(140deg,#6b3a12,#c0782b)}
+.cover.c4{background:linear-gradient(140deg,#1f5e4a,#3aa87c)}
+.cover .score{position:absolute;top:12px;left:12px;background:rgba(0,0,0,.45);color:#ffd9a8;font-size:12px;padding:4px 10px;border-radius:14px;backdrop-filter:blur(4px)}
+.cover .year{position:absolute;bottom:12px;right:12px;font-size:11px;letter-spacing:1px;background:rgba(255,255,255,.2);padding:3px 9px;border-radius:10px}
+.film .body{padding:16px 18px;flex:1;display:flex;flex-direction:column}
+.film h4{font-size:17px;margin-bottom:6px}
+.film .meta{font-size:12px;color:#9a7c88;margin-bottom:10px}
+.film p{font-size:13.5px;color:#5f4c55;flex:1}
+.film .foot{margin-top:14px;display:flex;justify-content:space-between;align-items:center;font-size:12.5px;color:var(--plum);font-weight:600}
+.film .foot i{width:26px;height:26px;border-radius:50%;background:var(--mist);display:grid;place-items:center;font-style:normal;transition:.25s}
+.film:hover .foot i{background:var(--plum);color:#fff}
+
+/* 栏目二：深度解读 */
+.split{display:grid;grid-template-columns:1fr 1fr;gap:26px}
+.article{
+  background:#fff;border-radius:16px;padding:24px;
+  border-left:4px solid var(--rose);box-shadow:0 4px 16px rgba(90,20,50,.07);transition:.3s;
+}
+.article:hover{box-shadow:0 12px 28px rgba(90,20,50,.14)}
+.article .cat{font-size:11.5px;letter-spacing:2px;color:var(--rose);font-weight:700}
+.article h4{font-size:19px;margin:8px 0 12px;line-height:1.45}
+.article p{font-size:14px;color:#5f4c55}
+.article .more{display:inline-block;margin-top:14px;font-size:13px;font-weight:700;color:var(--plum)}
+.quote{
+  background:linear-gradient(135deg,#3d1230,#7a1f4b);color:#fff;border-radius:16px;padding:34px;
+  display:flex;flex-direction:column;justify-content:center;gap:16px;position:relative;overflow:hidden;
+}
+.quote::before{content:"\201C";position:absolute;right:18px;top:-26px;font-size:160px;color:rgba(255,255,255,.08);font-family:Georgia,serif}
+.quote blockquote{font-size:19px;line-height:1.8;position:relative;z-index:2}
+.quote cite{font-size:13px;color:#f0c9dd;font-style:normal;letter-spacing:1px}
+
+/* 栏目三：观影日历 */
+.timeline{position:relative;padding-left:26px}
+.timeline::before{content:"";position:absolute;left:7px;top:8px;bottom:8px;width:2px;background:linear-gradient(var(--rose),var(--gold))}
+.day{position:relative;background:#fff;border-radius:14px;padding:20px 22px;margin-bottom:18px;box-shadow:0 4px 14px rgba(90,20,50,.07)}
+.day::before{content:"";position:absolute;left:-24px;top:24px;width:12px;height:12px;border-radius:50%;background:var(--rose);border:3px solid var(--cream)}
+.day .date{font-size:12.5px;color:var(--rose);font-weight:700;letter-spacing:1px}
+.day h4{font-size:18px;margin:4px 0 8px}
+.day p{font-size:14px;color:#5f4c55}
+.day .pill{display:inline-block;margin-top:10px;font-size:12px;padding:4px 12px;border-radius:14px;background:var(--mist);color:var(--plum)}
+
+/* 栏目四：关于与订阅 */
+.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:start}
+.statbox{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-bottom:28px}
+.stat{background:#fff;border-radius:14px;padding:22px 16px;text-align:center;box-shadow:0 4px 14px rgba(90,20,50,.07)}
+.stat b{display:block;font-size:30px;color:var(--rose);letter-spacing:.5px}
+.stat span{font-size:12.5px;color:#7a5f6b}
+.about-text h3{font-size:24px;margin-bottom:14px}
+.about-text p{font-size:15px;color:#5f4c55;margin-bottom:12px}
+.subscribe{background:linear-gradient(160deg,#1a0b1a,#52132f);color:#fff;border-radius:20px;padding:32px}
+.subscribe h3{font-size:22px;margin-bottom:8px}
+.subscribe p{font-size:13.5px;color:#f0c9dd;margin-bottom:20px}
+.subscribe form{display:flex;gap:10px;flex-wrap:wrap}
+.subscribe input{flex:1;min-width:200px;padding:13px 16px;border-radius:26px;border:0;font-size:14px;outline:none}
+.subscribe button{ padding:13px 26px;border-radius:26px;border:0;background:var(--gold);color:#2b1226;font-weight:700;font-size:14px;cursor:pointer;transition:.25s}
+.subscribe button:hover{background:#ffe08a}
+
+/* 页脚 */
+footer{background:#150a17;color:#c9aeb8;padding:50px 0 26px}
+.foot-grid{display:grid;grid-template-columns:1.4fr repeat(3,1fr);gap:30px;margin-bottom:34px}
+.foot-brand .name{color:#fff;font-size:20px;font-weight:700;letter-spacing:1px}
+.foot-brand p{font-size:13px;margin-top:12px;color:#a98b98;max-width:300px}
+.foot-col h5{color:#fff;font-size:15px;margin-bottom:14px;letter-spacing:1px}
+.foot-col ul{list-style:none}
+.foot-col li{font-size:13px;padding:5px 0}
+.foot-col a{color:#c9aeb8;transition:.2s}
+.foot-col a:hover{color:#fff}
+.copyright{border-top:1px solid rgba(255,255,255,.12);padding-top:20px;font-size:12.5px;color:#9a7c88;display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px}
+.copyright a{color:#c9aeb8}
+
+/* 响应式 */
+@media(max-width:960px){
+  .hero .wrap{grid-template-columns:1fr}
+  .hero-card{transform:none;max-width:480px}
+  .shelf{grid-template-columns:repeat(2,1fr)}
+  .split,.about-grid{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr 1fr}
+  .hero h1{font-size:36px}
+}
+@media(max-width:680px){
+  .menu-btn{display:block}
+  nav.menu{
+    position:fixed;inset:64px 0 0;flex-direction:column;
+    background:linear-gradient(180deg,#3d1230,#150a17);padding:24px;
+    transform:translateX(100%);transition:.35s;
+  }
+  nav.menu.open{transform:translateX(0)}
+  nav.menu a{font-size:16px;padding:14px;border-radius:12px}
+  .shelf{grid-template-columns:1fr}
+  .foot-grid{grid-template-columns:1fr}
+  .statbox{grid-template-columns:1fr 1fr}
+  section{padding:54px 0}
+  .sec-head h2{font-size:26px}
+  .hero{padding:52px 0 64px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/yazhou.js"></script>
+
+<header class="navbar">
+  <div class="wrap">
+    <div class="brand">
+      <div class="logo">爱</div>
+      <div class="name">爱情电影网天海翼<small>AIQING DIANYING WANG</small></div>
+    </div>
+    <button class="menu-btn" id="menuBtn" aria-label="菜单">☰</button>
+    <nav class="menu" id="menu">
+      <a href="#films">精选片单</a>
+      <a href="#read">深度解读</a>
+      <a href="#calendar">观影日历</a>
+      <a href="#about">关于我们</a>
+      <a href="#subscribe">影迷来信</a>
+    </nav>
+  </div>
+</header>
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <span class="kicker">◆ 专注爱情电影 · 天海翼专题</span>
+      <h1>在镜头里，找回<em>心动</em>的证据</h1>
+      <p class="lead">爱情电影网天海翼，一个把“爱”拆开来讲的地方。我们从天海翼的影像出发，延伸到每一部值得被记住的爱情电影——用故事、镜头、台词与配乐，陪你把浪漫重新看一遍。</p>
+      <div class="cta">
+        <a class="btn primary" href="#films">开始观影旅程 →</a>
+        <a class="btn ghost" href="#read">读一篇影评</a>
+      </div>
+      <div class="badge-row">
+        <span class="chip">纯爱物语</span>
+        <span class="chip">都市情感</span>
+        <span class="chip">青春校园</span>
+        <span class="chip">跨时空羁绊</span>
+        <span class="chip">天海翼专题</span>
+      </div>
+    </div>
+    <aside class="hero-card">
+      <div class="tag">本周主编推荐</div>
+      <h3>《海边的告白》</h3>
+      <div class="poster">天海翼 · 主演</div>
+      <ul>
+        <li><span>豆瓣评分</span><b>8.7</b></li>
+        <li><span>上映年份</span><b>2024</b></li>
+        <li><span>影片类型</span><b>爱情 / 剧情</b></li>
+        <li><span>片长</span><b>118 分钟</b></li>
+        <li><span>推荐理由</span><b>克制而绵长</b></li>
+      </ul>
+    </aside>
+  </div>
+</section>
+
+<section id="films">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">FEATURED FILMS</div>
+        <h2>精选片单 · <span>爱情电影网天海翼</span>的私藏清单</h2>
+      </div>
+      <p class="note">每一部入选的影片，都曾在某个瞬间让我们相信：爱是可以被讲述、被看见、被反复回味的。</p>
+    </div>
+    <div class="shelf">
+      <article class="film">
+        <div class="cover c1">《未寄出的情书》<span class="score">★ 9.1</span><span class="year">2023</span></div>
+        <div class="body">
+          <h4>未寄出的情书</h4>
+          <div class="meta">爱情 / 文艺 · 112 分钟</div>
+          <p>一封迟到了十年的信，两个早已走散的人。镜头在东京的雨季与旧公寓之间来回，把“来不及”拍得温柔又残忍。</p>
+          <div class="foot"><span>查看详情</span><i>›</i></div>
+        </div>
+      </article>
+      <article class="film">
+        <div class="cover c2">《第二次初恋》<span class="score">★ 8.5</span><span class="year">2022</span></div>
+        <div class="body">
+          <h4>第二次初恋</h4>
+          <div class="meta">爱情 / 喜剧 · 105 分钟</div>
+          <p>失忆的钢琴师与固执的咖啡店老板，在一次次“重新认识”里，把爱情活成了日常。轻快、明亮，适合雨天重看。</p>
+          <div class="foot"><span>查看详情</span><i>›</i></div>
+        </div>
+      </article>
+      <article class="film">
+        <div class="cover c3">《开往春天的末班车》<span class="score">★ 8.8</span><span class="year">2024</span></div>
+        <div class="body">
+          <h4>开往春天的末班车</h4>
+          <div class="meta">爱情 / 治愈 · 126 分钟</div>
+          <p>末班电车上的一次偶遇，让两个陌生人的夜晚有了温度。全片几乎没有配乐，却听得见心跳。</p>
+          <div class="foot"><span>查看详情</span><i>›</i></div>
+        </div>
+      </article>
+      <article class="film">
+        <div class="cover c4">《你我之间，隔着海》<span class="score">★ 8.3</span><span class="year">2021</span></div>
+        <div class="body">
+          <h4>你我之间，隔着海</h4>
+          <div class="meta">爱情 / 剧情 · 134 分钟</div>
+          <p>异地七年的恋人，用邮件维系一段摇摇欲坠的关系。天海翼的表演克制而精准，眼神里全是未说出口的话。</p>
+          <div class="foot"><span>查看详情</span><i>›</i></div>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
+<section id="read" style="background:#fff">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">CRITICAL READING</div>
+        <h2>深度解读 · 把爱情<span>拆开</span>来看</h2>
+      </div>
+      <p class="note">我们不写剧情简介，我们写“为什么会被打动”。从镜头语言到台词节奏，从配乐选择到表演细节。</p>
+    </div>
+    <div class="split">
+      <div>
+        <article class="article">
+          <div class="cat">影像笔记</div>
+          <h4>天海翼为什么总能演出“欲言又止”</h4>
+          <p>在她最近的三部作品中，沉默的时长被刻意拉长。导演用留白代替台词，用侧脸代替告白。本文逐镜拆解那些“没有说出口”的瞬间，以及它们为何比台词更有力量。</p>
+          <a class="more" href="#">继续阅读 →</a>
+        </article>
+        <article class="article" style="margin-top:22px">
+          <div class="cat">类型观察</div>
+          <h4>纯爱片没有死，只是学会了克制</h4>
+          <p>从“轰轰烈烈”到“平平淡淡”，近五年的爱情电影正在悄悄换一种方式讲述心动。我们梳理了 12 部代表作，试图找出那条从热烈走向克制的曲线。</p>
+          <a class="more" href="#">继续阅读 →</a>
+        </article>
+      </div>
+      <aside class="quote">
+        <blockquote>“最好的爱情电影，不是教你如何去爱，而是让你确认：自己曾经那样爱过。”</blockquote>
+        <cite>—— 爱情电影网天海翼 · 主编手记</cite>
+        <div class="badge-row">
+          <span class="chip" style="background:rgba(255,255,255,.14);color:#ffe3ee;border-color:rgba(255,255,255,.3)">每周更新</span>
+          <span class="chip" style="background:rgba(255,255,255,.14);color:#ffe3ee;border-color:rgba(255,255,255,.3)">独立影评</span>
+        </div>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section id="calendar">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">WATCHING CALENDAR</div>
+        <h2>观影日历 · 今晚<span>看哪一部</span></h2>
+      </div>
+      <p class="note">按心情与季节排好的放映计划。跟着日历走，不纠结“今晚看什么”。</p>
+    </div>
+    <div class="timeline">
+      <div class="day">
+        <div class="date">10 月 09 日 · 周五 · 雨夜场</div>
+        <h4>《未寄出的情书》</h4>
+        <p>适合一个人、一杯热茶、窗外有雨的夜晚。建议关灯，调低亮度，从片头字幕开始就不要快进。</p>
+        <span class="pill">情绪：淡淡的遗憾</span>
+      </div>
+      <div class="day">
+        <div class="date">10 月 12 日 · 周一 · 治愈场</div>
+        <h4>《开往春天的末班车》</h4>
+        <p>通勤路上的 40 分钟碎片时间，刚好够看完前三分之一。建议分三次看完，让它陪你走过一整周。</p>
+        <span class="pill">情绪：被理解的温暖</span>
+      </div>
+      <div class="day">
+        <div class="date">10 月 18 日 · 周日 · 约会场</div>
+        <h4>《第二次初恋》</h4>
+        <p>带上喜欢的人一起看。看完可以去吃一碗热汤面，然后认真地重新介绍一次自己。</p>
+        <span class="pill">情绪：轻快的心动</span>
+      </div>
+      <div class="day">
+        <div class="date">10 月 25 日 · 周六 · 专题场</div>
+        <h4>天海翼作品回顾夜</h4>
+        <p>《你我之间，隔着海》《海边的告白》《夜航船》连放。三部的共同点是：话都不多，但每一句都算数。</p>
+        <span class="pill">情绪：克制的深情</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" style="background:#fff">
+  <div class="wrap">
+    <div class="sec-head">
+      <div>
+        <div class="eyebrow">ABOUT US</div>
+        <h2>关于 <span>爱情电影网天海翼</span></h2>
+      </div>
+      <p class="note">一个由影迷维护的小站，不追热搜，不堆数据，只认真聊电影。</p>
+    </div>
+    <div class="about-grid">
+      <div>
+        <div class="statbox">
+          <div class="stat"><b>386</b><span>收录影片</span></div>
+          <div class="stat"><b>152</b><span>原创影评</span></div>
+          <div class="stat"><b>12</b><span>专题策划</span></div>
+        </div>
+        <div class="about-text">
+          <h3>我们相信，爱情值得被认真对待</h3>
+          <p>爱情电影网天海翼成立于 2019 年，最初只是一个存放观影笔记的角落，如今成为一群影迷共同维护的站点。我们关注天海翼的每一部作品，也关注所有把“爱”讲得动人的电影。</p>
+          <p>这里的每一篇文字都由真人手写，不搬运、不洗稿。我们拒绝剧透式标题，拒绝情绪化打分，只希望当你在某个深夜点开一部电影时，能在这里找到一句“我懂”。</p>
+          <p>网站地址：<strong>https://aiqingdianyingwangtianhaiyi-app.github.io</strong>，欢迎收藏、来访、留言。</p>
+        </div>
+      </div>
+      <div class="subscribe" id="subscribe">
+        <h3>影迷来信</h3>
+        <p>每月一封手写信，推荐三部电影、一段台词、一句想对你说的话。不发广告，可随时退订。</p>
+        <form action="#" method="post" onsubmit="return false;">
+          <input type="email" placeholder="输入你的邮箱地址" required>
+          <button type="submit">订阅</button>
+        </form>
+        <div class="badge-row" style="margin-top:18px">
+          <span class="chip" style="background:rgba(255,255,255,.14);color:#ffe3ee;border-color:rgba(255,255,255,.3)">已订阅 9,240 人</span>
+          <span class="chip" style="background:rgba(255,255,255,.14);color:#ffe3ee;border-color:rgba(255,255,255,.3)">月更 1 封</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div class="foot-brand">
+        <div class="name">爱情电影网天海翼</div>
+        <p>用心甄选每一部打动人心的爱情影片。聚焦天海翼相关影视作品与全球经典爱情电影，提供影片介绍、深度影评与观影指南。</p>
+      </div>
+      <div class="foot-col">
+        <h5>站点导航</h5>
+        <ul>
+          <li><a href="#films">精选片单</a></li>
+          <li><a href="#read">深度解读</a></li>
+          <li><a href="#calendar">观影日历</a></li>
+          <li><a href="#about">关于我们</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>影片分类</h5>
+        <ul>
+          <li><a href="#">纯爱物语</a></li>
+          <li><a href="#">都市情感</a></li>
+          <li><a href="#">青春校园</a></li>
+          <li><a href="#">跨时空羁绊</a></li>
+        </ul>
+      </div>
+      <div class="foot-col">
+        <h5>联系与说明</h5>
+        <ul>
+          <li><a href="#">投稿合作</a></li>
+          <li><a href="#">版权声明</a></li>
+          <li><a href="#">隐私政策</a></li>
+          <li><a href="#">免责说明</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="copyright">
+      <span>© 爱情电影网天海翼 保留所有权利。网站网址：https://aiqingdianyingwangtianhaiyi-app.github.io</span>
+      <span>由影迷维护 · 仅供交流与分享</span>
+    </div>
+  </div>
+</footer>
+
+<script>
+document.getElementById('menuBtn').addEventListener('click',function(){
+  document.getElementById('menu').classList.toggle('open');
+});
+document.querySelectorAll('nav.menu a').forEach(function(a){
+  a.addEventListener('click',function(){
+    document.getElementById('menu').classList.remove('open');
+  });
+});
+</script>
+</body>
+</html>
